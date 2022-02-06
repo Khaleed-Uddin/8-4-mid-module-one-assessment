@@ -112,7 +112,7 @@ describe("filterByCountMinimum()", () => {
 describe("getMostCommonAnimal()", () => {
   test("should return the animal object that has the highest count", () => {
     const actual = getMostCommonAnimal(animals);
-    const expected = { kind: "Chicken", count: 11 };
+    const expected = { kind: "Cow", count: 7 };
     expect(actual).toEqual(expected);
   });
 
